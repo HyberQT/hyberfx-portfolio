@@ -1,0 +1,30 @@
+.preview {
+  padding-bottom: 10px;
+  border: 1px solid rgb(223, 223, 223);
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgb(245, 245, 245);
+}
+
+.thumbnail {
+  width: 100%;
+  margin-bottom: 4px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.title {
+  text-align: center;
+}
+
+.title a {
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+}
+
+.preview-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}

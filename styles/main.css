@@ -1,0 +1,77 @@
+body {
+  font-family: Roboto, Montserrat, Arial, sans-serif;
+  margin: 0;
+  padding: 62px 10px 12px 10px;
+}
+
+.header {
+  display: flex;
+  background-color: #212121;
+  padding: 0px 25px;
+  margin: 0;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.left-section img {
+  width: 30px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.middle-section {
+  display: flex;
+  align-items: center;
+}
+
+.middle-section p a {
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.middle-section p a:hover {
+  color: #1f7fff;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+}
+
+.contact {
+  background-color: #212121;
+  padding: 6px 0px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.contact a {
+  font-size: 16px;
+  color: white;
+  background-color: #1f7fff;
+  padding: 6px 18px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.contact:hover a {
+  color: white;
+  background-color: #1f80ffbd;
+}
+
+
